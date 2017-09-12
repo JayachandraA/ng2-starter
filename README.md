@@ -9,6 +9,8 @@ In this example, it included the basics of anular2
 - Property Binding
 - Event Binding
 
+![picture alt](https://github.com/JayachandraA/ng2-starter/blob/master/Screen%20Shot%202017-09-12%20at%206.15.56%20PM.png?raw=true)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
