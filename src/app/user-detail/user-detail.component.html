@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <div *ngIf="user; else infoText">
+    <p>Hello {{user.name}} <small>({{user.username}})</small></p>
+    <h1> Wellcome to Angular2</h1>
+    <input type="text" class="form-control" [(ngModel)]="user.name" name="">
+  </div>
+  <ng-template #infoText>
+    <p>Select user to display a message</p>
+  </ng-template>
+</div>
