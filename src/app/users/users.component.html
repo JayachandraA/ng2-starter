@@ -1,3 +1,7 @@
-<p>
-  users works!
-</p>
+<div *ngIf="usersList">
+  <ul class="list-group users-list">
+    <li class="list-group-item" *ngFor="let user of usersList" (click)="onUserSelect(user)" [class.active]="user == activeUser">
+      {{user.name}} ({{user.username}})
+    </li>
+  </ul>
+</div>

@@ -8,12 +8,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UserDetailComponent implements OnInit {
 
-  @Input() user: UserModule
+  @Input() user: UserModule;
 
   constructor() {
   }
 
   ngOnInit() {
   }
-
 }

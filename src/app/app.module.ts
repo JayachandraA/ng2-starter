@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { NewUserFormComponent } from './new-user-form/new-user-form.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { NewUserFormComponent } from './new-user-form/new-user-form.component';
     AppComponent,
     UsersComponent,
     UserDetailComponent,
-    NewUserFormComponent
+    NewUserFormComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
